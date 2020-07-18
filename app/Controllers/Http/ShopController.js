@@ -10,7 +10,7 @@ const Helpers = use('Helpers')
 
 // Definimos el objeto "book" como variable global
 const book = {
-  sku: 'D001',
+  sku: 'P001',
   title: 'Banco de sangre donativo',
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREwenM7YTYF2nkbHgHwUQdCDUQiFZtoOS7Sg&usqp=CAU',
   description: 'Donativo para el desarrollo de la app',
