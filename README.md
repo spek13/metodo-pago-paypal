@@ -17,9 +17,9 @@ System Generated Password:
 x&VuOu9l 
 
 ```
-![Login](https://github.com/spek13/metodo-pago-paypal/blob/master/public/paypallogin.png)
+![Login](https://raw.githubusercontent.com/spek13/metodo-pago-paypal/master/public/paypallogin.png)
 
-![Cobro](https://github.com/spek13/metodo-pago-paypal/blob/master/public/paypalcobro.png)
+![Cobro](https://raw.githubusercontent.com/spek13/metodo-pago-paypal/master/public/paypalcobro.png)
 
 
 
