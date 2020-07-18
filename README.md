@@ -3,19 +3,23 @@
 Resultado del tutorial: [#005 - Pagos Online con PayPal y AdonisJS]
 
 Demo: [https://adonisjs-paypall.herokuapp.com](https://adonisjs-paypall.herokuapp.com)
+## Credenciales
+
+```bash
 
 First name:
-John
-Last name:
-Doe
-Email ID:
-sb-6mdyv2647235@personal.example.com
-System Generated Password:
-x&VuOu9l
+John 
+Last name: 
+Doe 
+Email ID: 
+sb-6mdyv2647235@personal.example.com 
+System Generated Password: 
+x&VuOu9l 
 
-![Login](/public/paypallogin.png)
+```
+![Login](https://github.com/spek13/metodo-pago-paypal/blob/master/public/paypallogin.png)
 
-![Cobro](/public/paypalcobro.png)
+![Cobro](https://github.com/spek13/metodo-pago-paypal/blob/master/public/paypalcobro.png)
 
 
 
