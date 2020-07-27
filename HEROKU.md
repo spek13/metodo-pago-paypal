@@ -61,14 +61,14 @@ heroku create adonisjs-paypall
 4.- Agregar el repositorio remoto de Heroku a nuestro repositorio local.
 
 ```bash
-heroku git:remote -a adonisjs-paypall
+heroku git:remote -a bloodbanck-paypal
 ```
 
 5.- Agregar las siguientes variables de configuración.
 
 ```bash
 heroku config:set HOST=::
-heroku config:set APP_URL=https://adonisjs-paypall.herokuapp.com
+heroku config:set APP_URL=https://bloodbanck-paypal.herokuapp.com/
 heroku config:set PAYPAL_MODE=sandbox
 heroku config:set PAYPAL_CLIENT_ID=AUEMSueuQOqo6U1TDaMhgWrvZE6nQLTI39jFEtZpXOM-jepDXtQafa7ieyXAkkKXZXlYWylDoWDyL-E4
 heroku config:set PAYPAL_CLIENT_SECRET=EJDIpWdzS5jj3BMyhLE4d1lBfSZH2DAMAonCq9SIWdQqzHpqaaSYe8WdPyBICQHuZZDD5Uidqce0N17G

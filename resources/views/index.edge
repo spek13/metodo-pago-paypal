@@ -39,9 +39,7 @@
               <p class="book-description mb-auto alig-center">{{ book.description }}</p>
               @if(paymentId)
                 <!-- Begin : Button - Download -->
-                <a href="{{ route('book.download') }}?paymentId={{paymentId}}" class="btn btn-outline-success" role="button">
-                  <i class="fa fa-cloud-download"></i> Download PDF
-                </a>
+
                 <!-- End : Button - Download -->
               @else
                 <!-- Begin : Button - Buy -->
@@ -56,11 +54,10 @@
           <!-- End : Card - Book -->
           @if(paymentId)
             <!-- Begin : Button - Go Home -->
-            <div class=" text-center pt-3">
-              <a href="{{ route('book.index') }}" class="btn btn-outline-dark">
-                <i class="fa fa-home"></i> Go Home
-              </a>
-            </div>
+<div class="clearfix">
+            <label class="pull-left checkbox-inline"></label><br/>
+            <a href="https://adonisjs-paypall.herokuapp.com/" class="pull-right">Go Home </a>
+        </div> 
             <!-- End : Button - Go Home -->
           @endif
         </div>
